@@ -1,0 +1,62 @@
+@import "font_base";
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-lg: $font-size-base * 1.25 !default;
+$font-size-sm: $font-size-base * .875 !default;
+
+$h1-font-size: $font-size-base * 2.5 !default;
+$h2-font-size: $font-size-base * 2 !default;
+$h3-font-size: $font-size-base * 1.75 !default;
+$h4-font-size: $font-size-base * 1.5 !default;
+$h5-font-size: $font-size-base * 1.25 !default;
+$h6-font-size: $font-size-base !default;
+
+$lead-font-size: $font-size-base * 1.25 !default;
+
+$font-size-small: 80% !default;
+
+
+
+$blockquote-small-font-size: $font-size-small !default;
+$blockquote-font-size: $font-size-base * 1.25 !default;
+
+$input-btn-font-size: $font-size-base !default;
+$input-btn-font-size-sm: $font-size-sm !default;
+$input-btn-font-size-lg: $font-size-lg !default;
+
+$btn-font-size: $input-btn-font-size !default;
+$btn-font-size-sm: $input-btn-font-size-sm !default;
+$btn-font-size-lg: $input-btn-font-size-lg !default;
+
+$input-font-size: $input-btn-font-size !default;
+$input-font-size-sm: $input-btn-font-size-sm !default;
+$input-font-size-lg: $input-btn-font-size-lg !default;
+
+$custom-select-font-size: $input-font-size !default;
+$custom-select-font-size-sm: $input-font-size-sm !default;
+$custom-select-font-size-lg: $input-font-size-lg !default;
+
+$form-feedback-font-size: $font-size-small !default;
+
+$navbar-brand-font-size: $font-size-lg !default;
+
+$navbar-brand-height: $navbar-brand-font-size * $line-height-base !default;
+$navbar-toggler-font-size: $font-size-lg !default;
+
+$dropdown-font-size: $font-size-base !default;
+
+$tooltip-font-size: $font-size-sm !default;
+
+$form-feedback-tooltip-font-size: $tooltip-font-size !default;
+$popover-font-size: $font-size-sm !default;
+$toast-font-size: .875rem !default;
+$badge-font-size: 75% !default;
+
+$progress-font-size: $font-size-base * .75 !default;
+$figure-caption-font-size: 90% !default;
+$close-font-size: $font-size-base * 1.5 !default;
+$code-font-size: 87.5% !default;
+$kbd-font-size: $code-font-size !default;
+
+$enable-responsive-font-sizes: false !default;
+$lead-font-size:              $font-size-base * 1.25 !default;

@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/dorion_subtheme.style.css: {}
+  js:
+    assets/js/dorion_subtheme.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

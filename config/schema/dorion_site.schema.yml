@@ -1,0 +1,5 @@
+# Schema for the configuration files of the dorion_subtheme theme.
+
+dorion_subtheme.settings:
+  type: theme_settings
+  label: 'dorion_subtheme settings'
