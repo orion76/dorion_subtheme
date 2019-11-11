@@ -1,0 +1,32 @@
+@import "../variables_reset";
+
+.region__content{
+  @include make-container();
+}
+
+.page__footer {
+  color: $gray-600;
+  padding-top: 10px;
+  background-color: $color-page-footer;
+  display: flex;
+  justify-content: space-around;
+  @include make-container();
+
+  .nav {
+    flex-direction: column;
+  }
+
+  h2 {
+    border-bottom: 1px dotted $gray-600;
+    font-size: 1.6em;
+    color: $white;
+  }
+
+  a {
+    color: $color-2-light;
+
+    &:hover {
+      color: $color-2-lighter;
+    }
+  }
+}

@@ -1,5 +1,10 @@
 // Page: Footer
 // -----------------------------------------------------------------------------
 .page__footer {
+  @include make-container();
+}
 
+.region__footer {
+
+  display: flex;
 }

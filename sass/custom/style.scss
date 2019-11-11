@@ -1,0 +1,42 @@
+@import "../variables_reset";
+@import "color";
+@import "block";
+@import "region";
+
+.region__navbar {
+  .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+.menu-main {
+  background-color: $dark;
+
+
+  justify-content: center;
+
+
+  .nav-item {
+    width: 8em;
+    text-align: center;
+    line-height: 2.2em;
+
+    &:hover {
+      background-color: $gray-900;
+    }
+  }
+
+  .nav-link.is-active {
+    background-color: $gray-900;
+  }
+
+  .nav-link {
+    color: $gray-400;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+
+}

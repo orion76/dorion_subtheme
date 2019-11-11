@@ -1,7 +1,7 @@
 // Bootstrap
 // -----------------------------------------------------------------------------
 @import "~bootstrap/scss/functions";
-@import "base/variables";
+@import "variables_reset";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/print";
 @import "~bootstrap/scss/reboot";
@@ -57,3 +57,6 @@
 @import "block/block";
 @import "content/node.page";
 @import "content/node.article";
+
+@import "entity/view";
+@import "custom/style";

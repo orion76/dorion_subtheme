@@ -8,9 +8,9 @@ type: theme
 base theme: dorion
 
 regions:
-  navbar_branding: Navbar branding
-  navbar_left:  Navbar left
-  navbar_right: Navbar right
+  navbar_first:  Navbar first
+  navbar_second: Navbar second
+  navbar_third: Navbar third
   header: Header
   content: Content
   page_bottom: Page bottom

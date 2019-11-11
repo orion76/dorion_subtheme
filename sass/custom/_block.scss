@@ -1,0 +1,61 @@
+
+.block__contactstop {
+  .field__item {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-top-item {
+    display: flex;
+    //border-top: 3px solid #ccc;
+    //background-color: #efefef;
+    padding: $padding-base;
+    flex: 0 0 32%;
+
+    .icon {
+      padding: 0 24px;
+      border-right: 1px solid #ddd;
+      font-size: 1.4em;
+      line-height: 3em;
+      color: #aaa;
+    }
+
+    .content {
+      padding-left: $padding-base;
+      color: $gray-900;
+    }
+  }
+
+
+}
+
+.block__sitebranding {
+
+  background-color: $color-1;
+
+  img {
+    width: 200px;
+    padding: .4em 1em;
+  }
+
+  .navbar-brand {
+    .site-name {
+      color: $color-1-light;
+      font-size: $h3-font-size;
+    }
+
+    .site-slogan {
+      color: $navbar-light-color;
+      font-size: $h3-font-size;
+    }
+  }
+}
+
+.layout--what-is-mercury{
+  .paragraph__content{
+    display:flex;
+    &>.field{
+
+    }
+  }
+}

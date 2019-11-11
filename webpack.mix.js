@@ -7,7 +7,7 @@
  | for your application. See https://github.com/JeffreyWay/laravel-mix.
  |
  */
-const proxy = 'http://drupal.local';
+const proxy = 'mercury.ti-work.site';
 const mix = require('laravel-mix');
 
 /*
@@ -17,7 +17,7 @@ const mix = require('laravel-mix');
  */
 mix
   .setPublicPath('assets')
-  .disableNotifications()
+  // .disableNotifications()
   .options({
     processCssUrls: false
   });
